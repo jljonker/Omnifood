@@ -61,8 +61,7 @@
   /* HEADER */
   .logo {height: 80px;}
 
-  header {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/hero-mob.jpg);}
+  header {background-image: url(img/hero-overlay-mob.png);}
 
   /* NAVIGATION */
   .main-nav {display: none;}

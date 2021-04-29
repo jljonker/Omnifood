@@ -8,7 +8,7 @@ $(document).ready(function() {
       $('nav').removeClass('sticky');
     }
     }, {
-      offset: '40px;'
+      offset: '60px;'
   });
 
   /* scroll on buttons */
