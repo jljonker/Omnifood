@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Omnifood is a super fake food company and this should show up in the search results.">
 
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
@@ -27,7 +28,7 @@
   <body>
     <div>
       <header>
-        <nav class="sticky">
+        <nav>
           <div class="row">
             <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
             <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
@@ -246,19 +247,19 @@
           <div class="col span-1-of-3">
             <blockquote>Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking,
             so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-            <cite><img src="resources/img/customer-1.jpg">Alberto Duncan</cite>
+            <cite><img src="resources/img/customer-1.jpg" alt="Alberto image">Alberto Duncan</cite>
             </blockquote>
           </div>
           <div class="col span-1-of-3">
             <blockquote>Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon,
               but no one comes even close to Omifood. Me and my family are so in love!
-            <cite><img src="resources/img/customer-2.jpg">Joana Silva</cite>
+            <cite><img src="resources/img/customer-2.jpg" alt="Joana image">Joana Silva</cite>
             </blockquote>
           </div>
           <div class="col span-1-of-3">
             <blockquote>I was looking for a quick and easy food delivery service in San Francisco. I tried a lot of them and ended up with Omnifood.
               Best food delivery service in the Bay Area. Keep up the great work!
-            <cite><img src="resources/img/customer-3.jpg">Milton Chapman</cite>
+            <cite><img src="resources/img/customer-3.jpg" alt="Milton image">Milton Chapman</cite>
             </blockquote>
           </div>
         </div>
@@ -346,7 +347,7 @@
           <form class="contact" action="#" method="post">
             <div class="row">
               <div class="col span-1-of-3">
-                <label for "name">Name</label>
+                <label for="name">Name</label>
               </div>
               <div class="col span-2-of-3">
                 <input type="text" name="Name" id="name" value="Your name" required>
@@ -355,7 +356,7 @@
 
             <div class="row">
               <div class="col span-1-of-3">
-                <label for "Email">Email</label>
+                <label for="Email">Email</label>
               </div>
               <div class="col span-2-of-3">
                 <input type="email" name="Email" id="Email" value="Your email address" required>
@@ -364,7 +365,7 @@
 
             <div class="row">
               <div class="col span-1-of-3">
-                <label for "find-us">How did you find us?</label>
+                <label for="find-us">How did you find us?</label>
               </div>
               <div class="col span-2-of-3">
                 <select name="find-us" id="find-us">
@@ -378,7 +379,7 @@
 
             <div class="row">
               <div class="col span-1-of-3">
-                <label for "newsletter">Newsletter</label>
+                <label for="newsletter">Newsletter</label>
               </div>
               <div class="col span-2-of-3">
                 <input type="checkbox" name="newsletter" id="newsletter" checked>Yes, please
@@ -387,10 +388,10 @@
 
             <div class="row">
               <div class="col span-1-of-3 drop">
-                <label>Drop us a line</label>
+                <label for="comment">Drop us a line</label>
               </div>
               <div class="col span-2-of-3">
-                <textarea name="comment" rows="8" cols="50" placeholder="Any comments"></textarea>
+                <textarea name="comment" id="comment" rows="8" cols="50" placeholder="Any comments"></textarea>
               </div>
             </div>
 
@@ -452,6 +453,5 @@
     <!-- reference to own js file (MAKE SURE THIS IS ALWAYS LAST SCRIPT): -->
     <script src="resources/js/script.js"></script>
 
-    </script>
   </body>
 </html>
